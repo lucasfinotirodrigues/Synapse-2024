@@ -1,0 +1,98 @@
+/* Reseta margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    height: 100vh;
+  }
+
+  /* Estilização do Header */
+  header {
+    background-color: #1D4ABD;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #1940a3;
+  }
+  
+  /* Seções */
+  section {
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  /* Cartões de Serviço */
+  .service-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+
+  #services {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .grupo {
+    display: flex;
+    gap: 12px;
+  }
+
+  img {
+    width: 200px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  footer nav ul {
+    display: inline-flex;
+    list-style: none;
+    gap: 10px;
+  }
+  
+  footer nav ul li a {
+    color: #ddd;
+    text-decoration: none;
+  }
+  
+  footer nav ul li a:hover {
+    color: #fff;
+  }
+  
+  .social-media {
+    margin-top: 10px;
+  }
+  
